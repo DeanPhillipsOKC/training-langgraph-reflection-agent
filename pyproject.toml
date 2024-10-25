@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "training-langgraph-reflection-agent"
+version = "0.1.0"
+description = ""
+authors = ["Dean Phillips <dean.phillips@e-hps.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+langchain = "^0.3.4"
+langchain-openai = "^0.2.3"
+langgraph = "^0.2.39"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
